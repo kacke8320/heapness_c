@@ -36,13 +36,19 @@ void printHeap(int heap[]) {
 }
 
 
-int main() {
+
+
+void test() {
 	int heap[] = {60, 100, 70, 30, 20, 60, 500};
 	printHeap(heap);
 	bubbleUp(1, heap);
 	printHeap(heap);
 	bubbleUp(6, heap);
 	printHeap(heap);
+}
 
+int main() {
+	test();
 	return 0;
 }
+
